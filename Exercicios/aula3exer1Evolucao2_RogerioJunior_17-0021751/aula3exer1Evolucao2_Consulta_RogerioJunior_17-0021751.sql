@@ -1,6 +1,6 @@
 -- -------------------------------------------   << Escala de Plantonistas >>   --------------------------------------------
 --
---                                                 SCRIPT DE APAGAR (DDL)                                                 
+--                                                 SCRIPT DE CONSULTA (DDL)                                                 
 -- 
 -- Data Criação ...........: 23/03/2020
 -- Autor(es) ..............: Rogério S. dos Santos Júnior
@@ -14,7 +14,7 @@
 
 USE aula3exer1Evolucao2;
 
--- Consulta que lista facilmente todos os plantonistas que são Cardiologistas
+-- Visão que lista facilmente todos os plantonistas que são Cardiologistas
 
 CREATE VIEW PLAN_CARDIOLOGIA 
   (name, matricula, sexo) 

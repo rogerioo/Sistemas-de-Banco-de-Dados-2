@@ -1,6 +1,6 @@
 -- -------------------------------------------   << Aula 04 - Extra 01 >>   --------------------------------------------
 --
---                                                 SCRIPT DE APAGAR (DDL)                                                 
+--                                                 SCRIPT DE CONSULTA (DML)                                                 
 -- 
 -- Data Criação ...........: 30/03/2020
 -- Autor(es) ..............: Rogério S. dos Santos Júnior
