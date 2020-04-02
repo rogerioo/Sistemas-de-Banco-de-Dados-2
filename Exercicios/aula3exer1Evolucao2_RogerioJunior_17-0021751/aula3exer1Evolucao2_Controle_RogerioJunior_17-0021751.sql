@@ -26,6 +26,8 @@ CREATE USER 'gestor'@'localhost' IDENTIFIED BY '12345678';
 
 GRANT SELECT ON aula3exer1Evolucao2.* TO 'gestor'@'localhost';
 
+GRANT SELECT ON aula3exer1Evolucao2.* TO 'gestor'@'localhost';
+
 GRANT INSERT, UPDATE ON aula3exer1Evolucao2.PLANTONISTA TO 'gestor'@'localhost';
 
 GRANT INSERT, UPDATE ON aula3exer1Evolucao2.SETOR TO 'gestor'@'localhost';
