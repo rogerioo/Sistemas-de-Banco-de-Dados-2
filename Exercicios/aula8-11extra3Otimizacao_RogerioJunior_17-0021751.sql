@@ -49,6 +49,8 @@ SELECT SQL_NO_CACHE COUNT(*) AS `Número de compras em 2015` FROM sale
 --  Latência = 208.76 ms
 
 ALTER TABLE product MODIFY price FLOAT(6,2) NOT NULL;
+CREATE INDEX product_price_idx ON product(`price`);
+CREATE INDEX product_stock_idx ON product(`stock`);
 
 SELECT SQL_NO_CACHE COUNT(*) AS `Quantidade` FROM product
   WHERE price BETWEEN 0 AND 1000 AND stock <= 100;
@@ -126,6 +128,6 @@ SELECT SQL_NO_CACHE * FROM user
 -- Taxa de transferência = 737.92 t/s
 --  Latência = 21.63 ms
 
-SELECT SQL_NO_CACHE * FROM store;
+SELECT SQL_NO_CACHE name FROM store;
 
 -- =============================================================================================================
