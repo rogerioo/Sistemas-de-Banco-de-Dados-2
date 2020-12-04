@@ -1,2 +1,0 @@
-data/hashtag_joebiden.csv filter=lfs diff=lfs merge=lfs -text
-db_dump.sql filter=lfs diff=lfs merge=lfs -text

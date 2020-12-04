@@ -80,8 +80,8 @@ tweet = {
 }
 
 
-insert_into_db(connection_string, 'STATE', state)
-insert_into_db(connection_string, 'SOURCE', source)
-insert_into_db(connection_string, 'USER', user)
-insert_into_db(connection_string, 'LOCATION', location)
-insert_into_db(connection_string, 'TWEET', tweet)
+insert_into_db(connection_string, 'STATE_DIMENSION', state)
+insert_into_db(connection_string, 'SOURCE_DIMENSION', source)
+insert_into_db(connection_string, 'USER_DIMENSION', user)
+insert_into_db(connection_string, 'LOCATION_DIMENSION', location)
+insert_into_db(connection_string, 'FACT_TWEET', tweet)
